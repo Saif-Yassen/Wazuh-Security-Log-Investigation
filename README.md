@@ -60,7 +60,19 @@ Now we can see all the details about this event (agent ID, agent IP, agent NAME,
 
 <img width="1214" height="689" alt="image" src="https://github.com/user-attachments/assets/84b5b3c8-7272-4584-ae47-d79f817285b1" />
 
+In these details we can import a lot of important informations:
 
+1- data.win.eventdata.logontype --> 2 :
+This type means that the interactive 
+happened from device’s keyboard or screen directly.
+
+2- data.win.evendata.status --> 0xc000006d :
+
+(0xc000006d) this code means general failure
+"unknown username or wrong passwords".
+
+3- data.win.eventdata.subjectUserName ---> (THT$):
+name the actual machine.
 
 
 
