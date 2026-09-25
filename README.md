@@ -33,6 +33,40 @@ And here we are our Threat Hunting Dashboard :-
 
 <img width="1212" height="683" alt="image" src="https://github.com/user-attachments/assets/dc08b96a-19c5-4326-b53c-bc4e8c79cbe9" />
 
+In this scenario on your agent (WINDOWS OS) try failed logins (wrong passwords or username):-
+
+Now in our manager device(UBUNTU OS):-
+
+CLICK ON "Authentication failure" to filter failed logins.
+
+<img width="1217" height="687" alt="image" src="https://github.com/user-attachments/assets/ae240af6-0fa9-40f6-8fa1-da4ebe6f45b3" />
+
+<img width="1213" height="683" alt="image" src="https://github.com/user-attachments/assets/08488293-4d8f-4ce2-982e-3fabdeba2e45" />
+
+Now to see these 7 events details CLICK ON "Events":-
+
+<img width="1210" height="682" alt="image" src="https://github.com/user-attachments/assets/efd226ea-52ac-4ada-a879-4817f2148159" />
+
+
+And here we are clearly 3 failed logins:-
+
+<img width="1212" height="622" alt="image" src="https://github.com/user-attachments/assets/cacc3d51-f069-48bb-8b8a-238acf91c55a" />
+
+to show the event details click on the icon left side of timestamp :-
+
+<img width="1214" height="686" alt="image" src="https://github.com/user-attachments/assets/78cbb1ef-c3bc-4fb3-8557-d0f857035e96" />
+
+Now we can see all the details about this event (agent ID, agent IP, agent NAME, etc...):-
+
+<img width="1214" height="689" alt="image" src="https://github.com/user-attachments/assets/84b5b3c8-7272-4584-ae47-d79f817285b1" />
+
+
+
+
+
+
+
+
 
 
 
