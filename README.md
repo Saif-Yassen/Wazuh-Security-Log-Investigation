@@ -82,6 +82,12 @@ etc.......
 2- good dealing with Threat Hunting dashboard interface.
 3-Applied authentication failure filter to determine failed login events.
 
+## Conclusion 
+
+Successfully detected and identified failed windows logins 
+using Wazuh SEIM. This scenario explained how to identify authentication 
+failure
+
 
 
 
