@@ -74,6 +74,15 @@ happened from device’s keyboard or screen directly.
 3- data.win.eventdata.subjectUserName ---> (THT$):
 name the actual machine.
 
+etc.......
+
+## Action performed:-
+
+1- failed logins attempts on windows agent.
+2- good dealing with Threat Hunting dashboard interface.
+3-Applied authentication failure filter to determine failed login events.
+
+
 
 
 
