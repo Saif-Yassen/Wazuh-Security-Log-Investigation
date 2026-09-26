@@ -86,7 +86,14 @@ etc.......
 
 Successfully detected and identified failed windows logins 
 using Wazuh SEIM. This scenario explained how to identify authentication 
-failure
+failure.
+
+Next step: identifying successful login events and correlate them with failed  logins to identify 
+the potential of suspicious authentication activity.
+
+## Scenario Tow (Successful logins).
+
+
 
 
 
