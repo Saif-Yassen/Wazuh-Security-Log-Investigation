@@ -140,11 +140,23 @@ Big question here!!!...
 ## Why it still ZEROO??
 
 Reason:
-Wazuh dashboard’s cards runs by Wazuh rule.groups 
+Wazuh dashboard’s cards runs by Wazuh rule.groups and rule.level don't have Windows
+event IDs. 
+To show Windows logs Click on "Events" in Wazuh "Threating Events":
 
 
+<img width="1212" height="688" alt="image" src="https://github.com/user-attachments/assets/93fdd54c-3e39-46c0-a82a-c7be85815b04" />
 
 
+Click on the icon beside "timestamp":-
+
+<img width="1211" height="686" alt="image" src="https://github.com/user-attachments/assets/500a181c-0764-4ff9-9dd9-9ae29752f185" />
+
+<img width="1216" height="688" alt="image" src="https://github.com/user-attachments/assets/323d26ed-e298-47dd-b80b-d28bf93c254c" />
+
+Scroll down to "data.win.system.eventID" showing up the ID number is "4624".
+
+<img width="1216" height="684" alt="image" src="https://github.com/user-attachments/assets/c6241e00-581c-4b24-8696-a181c5ac3f4c" />
 
 
 
