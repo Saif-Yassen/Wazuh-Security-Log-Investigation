@@ -133,7 +133,14 @@ in our case we want 4626 --->> which is the event ID.
 Click on "Save"
 
 
+<img width="1216" height="685" alt="image" src="https://github.com/user-attachments/assets/d17d1bfc-2a0b-429e-a2fe-5300c1f29631" />
 
+Big question here!!!...
+
+## Why it still ZEROO??
+
+Reason:
+Wazuh dashboard’s cards runs by Wazuh rule.groups 
 
 
 
