@@ -91,9 +91,18 @@ failure.
 Next step: identifying successful login events and correlate them with failed  logins to identify 
 the potential of suspicious authentication activity.
 
-## Scenario TwO (Successful logins).
+## Scenario Two (Successful logins).
+
+To start comeback to "Threat Hunting Dashboard" interface and apply
+"Authentication success" filter
 
 
+<img width="1212" height="688" alt="image" src="https://github.com/user-attachments/assets/78789837-496b-4e19-97b7-dda059c6519c" />
+
+
+where is Tht machine???
+the reason why agent tht not existed that there is no filter dedicated 
+to 
 
 
 
