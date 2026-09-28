@@ -100,11 +100,37 @@ To start comeback to "Threat Hunting Dashboard" interface and apply
 <img width="1212" height="688" alt="image" src="https://github.com/user-attachments/assets/78789837-496b-4e19-97b7-dda059c6519c" />
 
 
-where is Tht machine???
-the reason why agent tht not existed that there is no filter dedicated 
-to 
+where is "Tht" machine???
+the reason why agent "Tht" not existed that there is no filter dedicated 
+to receive signals from Windows rule groups, all the filters designed to catch signals
+from Linux/PAM rule groups.
+
+So, the next step is creating a filter specialised for Windows:-
+
+Go to "Threat Hunting" interface :
+
+<img width="1211" height="681" alt="image" src="https://github.com/user-attachments/assets/d10b597e-9375-4e9e-99b3-6bbf20b03370" />
+
+Click on "Add filter":
+
+<img width="1216" height="684" alt="image" src="https://github.com/user-attachments/assets/2dcfed48-16d2-4f2d-82e9-852c2ae14c8b" />
+
+1- In this field type "data.win.system.eventID".
+-> When Wazuh receive Windows log it divide it into fields.
+This field hold Windows event id number.
+
+2- In Operator choose "is".
+->  "is" in operators means that we want only this value,
+in our case we want 4626 --->> which is the event ID.
+
+3- choose "4624" in Value field.
+ -> In Windows means that the account was successfully logged in. 
+ 
+
+<img width="1207" height="495" alt="image" src="https://github.com/user-attachments/assets/3bc79947-da6f-41b8-8856-8ff6ee47ee28" />
 
 
+Click on "Save"
 
 
 
