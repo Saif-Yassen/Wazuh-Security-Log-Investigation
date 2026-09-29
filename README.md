@@ -188,6 +188,24 @@ to detect suspicious authentication activity.
 To simulate it lock your Windows agent account and try failed logins 5 times
 then do successful one. 
 
+Go to Wazuh "Threating Hunting" dashboard Click on "Events":-
+
+<img width="1210" height="686" alt="image" src="https://github.com/user-attachments/assets/06aaaef1-8174-4d2a-97dd-cddca5d3b40a" />
+
+Click on "Add filter":-
+
+<img width="1213" height="357" alt="image" src="https://github.com/user-attachments/assets/6ad75bd6-44d4-46b6-ab91-06283a1a65c3" />
+
+In "Field" search bar type "data.win.system.eventID". 
+In "Operator" choose "is one of".
+In Values type 4625 and press Enter then type 4624 and press Enter.
+
+<img width="1209" height="387" alt="image" src="https://github.com/user-attachments/assets/5b65a208-0cbf-460f-a3d4-0007a0fc8811" />
+
+Then Click Save.
+
+
+
 
 
 
