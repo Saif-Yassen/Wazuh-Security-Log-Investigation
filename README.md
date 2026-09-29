@@ -183,7 +183,10 @@ Next step: correlate failed logins (4625) with successful logins (4624)
 to detect suspicious authentication activity.
 
 
-
+## Scenario Three (Investigate suspicious authentication)
+-> In this scenario we want to simulate brute force attack potential.
+To simulate it lock your Windows agent account and try failed logins 5 times
+then do successful one. 
 
 
 
