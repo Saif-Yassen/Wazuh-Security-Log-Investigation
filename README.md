@@ -121,7 +121,7 @@ This field hold Windows event id number.
 
 2- In Operator choose "is".
 ->  "is" in operators means that we want only this value,
-in our case we want 4626 --->> which is the event ID.
+in our case we want 4624 --->> which is the event ID.
 
 3- choose "4624" in Value field.
  -> In Windows means that the account was successfully logged in. 
