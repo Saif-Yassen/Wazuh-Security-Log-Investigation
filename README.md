@@ -162,6 +162,26 @@ Scroll down to "data.win.system.eventID" showing up the ID number is "4624".
 
 <img width="1216" height="684" alt="image" src="https://github.com/user-attachments/assets/c6241e00-581c-4b24-8696-a181c5ac3f4c" />
 
+## Action performed
+
+1.Generating successful logins on Windows agent.
+2.Applying "Authentication success" filter in "Threating Hunting" dashboard 
+and discovering issue with Windows agent.
+
+3.Creating a custom filter in "data.win.system.eventID" with the operator "is"
+and value "4624".
+4.Explaining why dashboard cards still zero.
+5. showing the windows events ID rule.group in Events interface.
+
+## Conclusion 
+Successfully finding Windows successful login events in Wazuh.
+The dashboard cards didn't show Windows events. So, I used a custom filter and 
+the Events interface showed them. This scenario showed us that Windows events must 
+be searched by it own fields, not only by the built in cards.
+
+Next step: correlate failed logins (4625) with successful logins (4624)
+to detect suspicious authentication activity.
+
 
 
 
