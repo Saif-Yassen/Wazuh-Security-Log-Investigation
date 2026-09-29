@@ -59,6 +59,8 @@ to show the event details click on the icon left side of timestamp :-
 Now we can see all the details about this event (agent ID, agent IP, agent NAME, etc...):-
 
 <img width="1214" height="689" alt="image" src="https://github.com/user-attachments/assets/84b5b3c8-7272-4584-ae47-d79f817285b1" />
+<img width="1214" height="684" alt="image" src="https://github.com/user-attachments/assets/5e91bbec-950f-4746-87d2-9307f9ccc9d7" />
+
 
 In these details we can import a lot of important informations:
 
@@ -74,7 +76,9 @@ happened from device’s keyboard or screen directly.
 3- data.win.eventdata.subjectUserName ---> (THT$):
 name the actual machine.
 
-etc.......
+4- "data.win.system.eventID" --->"4625".
+
+ID number of Authentication failure of Windows logs.
 
 ## Action performed:-
 
